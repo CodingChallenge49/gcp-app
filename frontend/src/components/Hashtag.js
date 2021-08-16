@@ -49,6 +49,7 @@ function Hashtag(props) {
           onSearchChange={handleSearchChange}
           results={props.exampleReducer.results}
           value={props.exampleReducer.value}
+          required
         />
       </Grid.Column>
     </Grid>
